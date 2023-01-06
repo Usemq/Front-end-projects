@@ -1,0 +1,118 @@
+body{
+    background-color: #f3eae3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-height:100vh;
+}
+
+h1{
+    margin-left: 32px;
+    width: 200px;
+    line-height: 0.9;
+    font-family: 'Fraunces', serif;
+
+}
+
+.perfume{
+    color: gray;
+	letter-spacing: 6px;
+    margin-left: 32px;
+    margin-top: 35px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 600px;
+    display: flex;
+    object-fit: contain;
+}
+
+.description{
+    color: gray;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 40px;
+    width: 235px;
+    line-height: 1.2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.prices{
+    display: flex;    
+    justify-content: left;
+    margin-top: 30px;
+    
+}
+
+.price1 {
+    color: #3e7f67;
+    margin-left: 32px;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Fraunces', serif;
+}
+
+.price2 {
+    color: gray;
+    margin-left: 20px;
+    text-decoration: line-through;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button {
+    background-color: #3d8168;
+    color: white;
+    font-size: 13px;
+    font-weight: 200;
+    width: 235px;
+    height: 48px;
+    margin-left: 32px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 31px;
+    border: none;
+}
+
+button:hover {
+    background-color: #1a4031;
+}
+
+#container {
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    background-color: white;
+    float: right;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+
+.image {
+    display: flex;
+    justify-content: left;
+    border-radius: 10px 0 0 10px;
+    overflow:hidden;
+}
+
